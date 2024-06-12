@@ -68,8 +68,22 @@
       padding: 15px 24px;
       border: solid #73AFF4 1px;
       border-radius: 8px;
+      transition: border-color 0.25s linear, color 0.25s linear, background-color 0.25s;
+      cursor: pointer;
+
+    }
+
+    &:hover {
+      background-color: #7397F5;
+      border-color: #646cff;
+      color: #FFFFFF;
+    }
+    &:focus,
+    &:focus-visible {
+      outline: 4px auto -webkit-focus-ring-color;
     }
   }
+
   .info-block{
     display: none;
 
@@ -104,7 +118,6 @@
 
   .clear {
     position: absolute;
-    right: 0;
     width: 20px;
     height: 20px;
     top: 10px;
@@ -127,12 +140,25 @@
       border: solid #73AFF4 1px;
       border-radius: 10px;
       padding: 12px 48px;
+      transition: border-color 0.25s;
+      cursor: pointer;
+
     }
     @media (min-width: 1920px) {
       width: 1015px;
       border: solid #73AFF4 1px;
       border-radius: 10px;
       padding: 12px 48px;
+    }
+
+    &:hover {
+      border-color: #646cff;
+    }
+
+    &:focus,
+    &:focus-visible {
+      outline: none;
+      border: solid #646cff 2px;
     }
   }
 }

@@ -221,7 +221,7 @@
         border: 1px solid #D5D5D5;
         border-radius: 4px;
         padding: 0 13px;
-
+        cursor: pointer;
 
         .price-begin {
           font-size: 12px;
@@ -238,6 +238,8 @@
           line-height: 16px;
           max-width: 80px;
           outline: none;
+          cursor: pointer;
+
         }
       }
       .price-line{
@@ -278,6 +280,7 @@
       padding: 0 13px;
       position: relative;
       margin-top: 16px;
+      cursor: pointer;
 
       .search-img {
         position: absolute;
@@ -296,6 +299,7 @@
         line-height: 16px;
         color: #AAAAAA;
         outline: none;
+        cursor: pointer;
       }
     }
     .brand-attributes{
