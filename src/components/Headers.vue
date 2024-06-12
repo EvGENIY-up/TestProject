@@ -143,6 +143,16 @@
       transition: border-color 0.25s;
       cursor: pointer;
 
+      &:hover {
+        border-color: #646cff;
+      }
+
+      &:focus,
+      &:focus-visible {
+        outline: none;
+        border: solid #646cff 2px;
+      }
+
     }
     @media (min-width: 1920px) {
       width: 1015px;
@@ -151,15 +161,6 @@
       padding: 12px 48px;
     }
 
-    &:hover {
-      border-color: #646cff;
-    }
-
-    &:focus,
-    &:focus-visible {
-      outline: none;
-      border: solid #646cff 2px;
-    }
   }
 }
 .find{
